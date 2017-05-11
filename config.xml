@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.mskian.cutoffcal"
+        version   = "1.0">
+    
+    <name>cut off calculator</name>
+    
+    <description>
+       Calculate cut off Marks For BE Engineering, Medical MBBS and Pure Science.
+    </description>
+    
+    <author href="https://santhoshveer.com/" email="me@santhoshveer.com">
+        Santhosh veer
+    </author>
+    
+    
+    <preference name="phonegap-version" value="cli-6.4.0" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="permissions" value="none"/>
+    <preference name="fullscreen" value="true" />
+    
+    <gap:platform name="android" />    
+    <icon src="icon.png" />        
+    
+</widget>
