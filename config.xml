@@ -5,7 +5,7 @@
         id        = "com.mskian.cutoffcal"
         version   = "1.1">
     
-    <name>cut off calculator</name>
+    <name>Cut off Calculator</name>
     
     <description>
        Calculate cut off Marks For BE Engineering, Medical MBBS and Pure Science.
