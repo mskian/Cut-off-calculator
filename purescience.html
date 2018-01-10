@@ -5,11 +5,8 @@
 <!-- meta character set -->
 <meta charset="utf-8">
 
-<!-- Always force latest IE rendering engine or request Chrome Frame -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-<!-- Mobile Specific Meta -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- CSS and Fonts -->
 <link href="theme.css" rel="stylesheet">
@@ -23,6 +20,15 @@ body {
     line-height: 30px;
     text-align: center;
 }
+h2 {
+    font-size: 24px;
+}
+.btn {
+    margin-bottom:4px;white-space: normal;
+}
+.input {
+    margin-bottom:4px;white-space: normal;
+}
 </style>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,20 +39,22 @@ body {
 
 </head>
 <body>
-
+<br />
 <br />
 
 <div class="container">
-<div class="row">
+<div class="row justify-content-center">
 <div class="col-lg-6 col-lg-offset-3 text-center">
-<h2 span class="veer">calculate Pure Science cut off for Medical</h2>
+<h2>calculate Pure Science cut off for Medical</h2>
+</div>
 </div>
 </div>
 <br />
 
 <div class="container">
-<div class="row">
+<div class="row justify-content-center">
 <div class="col-lg-6 col-lg-offset-3 text-center">
+
 <form name='CutoffCalculator'>
 <strong><input maxlength='3' name='Zoology' type='text' class="form-control w-40 dis-ib" placeholder="Enter your Zoology Mark"/></strong>
 <br />
@@ -57,21 +65,26 @@ body {
 <strong><input maxlength='3' name='Chemistry' class="form-control w-40 dis-ib" type='text' placeholder="Enter your Chemistry Mark"/></strong>
 <br />
 <input name='Find' onclick='CutoffCalculator.CutOff.value = (CutoffCalculator.Zoology.value/4)+(CutoffCalculator.Botany.value/4)+(CutoffCalculator.Physics.value/4)+(CutoffCalculator.Chemistry.value/4)' type='button' class="btn btn-success" value='GENERATE CUT OFF'/>
+</form>
 <br />
 <br />
+
 <div class="text-center well">
 <strong><input maxlength='10' name='CutOff' type='text' class="form-control w-40 dis-ib" placeholder="Your Cut off is"/></strong>
 </div>
+
 </div>
 </div>
 </div>
 <br />
 
 <div class="container">
-<div class="row">
+<div class="row justify-content-center">
 <div class="col-lg-6 col-lg-offset-3 centered">
+
 <P><a href="javascript:history.go(-1)" class="btn btn-success">Go Back</a></P>
 <p><a href="eng.html" class="btn btn-success">calculate cut off For BE</a></p>
+
 </div>
 </div>
 </div>
