@@ -3,12 +3,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mskian.cutoffcal"
-        version   = "1.2">
+        version   = "1.3">
     
     <name>Cut off Calculator</name>
     
     <description>
-       Calculate cut off Marks For BE Engineering, Medical MBBS and Pure Science.
+       Calculate cut off Marks For BE Engineering, Medical MBBS, Pure Science and Agriculture.
     </description>
     
     <author href="https://santhoshveer.com/" email="me@santhoshveer.com">
